@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class PhoneBookTest {
     @Test
-    public void add() {
+    public void addTest() {
         final String name = "Maria";
         final long number = 9731231223L;
         final int original = 1;
