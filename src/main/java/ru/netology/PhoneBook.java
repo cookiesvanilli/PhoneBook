@@ -7,6 +7,6 @@ public class PhoneBook {
 
     public static int add(String name, long number) {
         phonebook.put(name, number);
-        return 0;
+        return phonebook.size();
     }
 }
