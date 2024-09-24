@@ -9,4 +9,8 @@ public class PhoneBook {
         phonebook.put(name, number);
         return phonebook.size();
     }
+
+    public static String findByNumber(long number) {
+        return null;
+    }
 }
